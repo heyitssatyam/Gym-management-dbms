@@ -15,7 +15,6 @@ body{
     background: url("/static/background.webp") no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 header{
     position: fixed;
@@ -30,9 +29,10 @@ header{
 }
 
 .logo{
-    font-size: 2em;
+    font-size: 1.8em;
     color: #fff;
     user-select: none; 
+    text-decoration: none;
 }
 
 .navigation a{
@@ -82,55 +82,13 @@ header{
     color: #162938;
 }
 
-.dashboard-container {
-    display: flex;
-    height: 80vh;
-    width: 60vw;
-    backdrop-filter: 2px;
-}
-
-.sidebar {
-    width: 200px;
-    background: rgba(82, 35, 35, 0.81);
+.container{
     color: #fff;
-    padding: 20px;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sidebar ul li {
-    margin: 20px 0;
-}
-
-.sidebar ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.sidebar ul li a:hover {
-    text-decoration: underline;
-}
-
-.content {
-    flex-grow: 1;
-    background: #fff;
-    padding: 20px;
-}
-
-.content h2 {
-    margin-top: 0;
-}
-
-.content form {
-    display: flex;
-    flex-direction: column;
-}
-
-.content form label,
-.content form select,
-.content form button {
-    margin: 10px 0;
+    font-size: 40px;
+    border: 2px solid;
+    box-shadow: 0px 3px 2px 0px ;
+    padding: 1.1em;
+    border-radius: 20px;
+    background:transparent;
+    backdrop-filter: blur(8px);
 }
